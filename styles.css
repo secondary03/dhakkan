@@ -1,0 +1,52 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&display=swap');
+
+body {
+  /* font-family: 'Times New Roman', serif; */
+  font-family: 'Oldenburg', serif;
+  background-color: #8B4513; /* SaddleBrown */
+  color: #7D5627; /* DarkTan */
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#letter-container {
+  background-color: #D2B48C; /* Tan */
+  padding: 20px;
+  /* border-radius: 10px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+  display: none;
+  width: 760px;
+  background: transparent;
+  height: 100vh;
+}
+
+#letter {
+  background-image: url('img3.webp'); /* Add a rusty paper image */
+  background-size: cover;
+  color: #2a1904; /* DarkTan */
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+#open-button {
+  font-family: 'Oldenburg', serif;
+  background-color: #D2B48C; /* Tan */
+  color: #52330e; /* DarkTan */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+#open-button:hover{
+  text-decoration: underline;
+}
